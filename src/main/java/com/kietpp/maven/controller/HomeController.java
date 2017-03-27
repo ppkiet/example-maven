@@ -6,7 +6,6 @@
 package com.kietpp.maven.controller;
 
 
-import com.kietpp.maven.controller.DAO.User_DAO;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -29,8 +28,9 @@ public class HomeController {
 
     @RequestMapping("send")
     public String Send(ModelMap model, @RequestParam("username") String username, @RequestParam("key") String password) {
-        User_DAO dao = new User_DAO();
-        if (dao.loginUser(username, password)) {
+//        User_DAO dao = new User_DAO();
+//        if (dao.loginUser(username, password)) {
+        if (9>5) {
             return "succes";
         } else {
             model.addAttribute("mess", "L?I: sai m?t kh?u vui lòng nh?p l?i!");
