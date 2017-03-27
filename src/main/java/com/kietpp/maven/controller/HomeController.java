@@ -9,6 +9,6 @@ package com.kietpp.maven.controller;
  *
  * @author PC
  */
-public class NewClass {
+public class HomeController {
     
 }
