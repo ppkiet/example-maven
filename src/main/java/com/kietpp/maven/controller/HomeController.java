@@ -27,16 +27,16 @@ public class HomeController {
         return "table";
     }
 
-//    @RequestMapping("send")
-//    public String Send(ModelMap model, @RequestParam("username") String username, @RequestParam("key") String password) {
-////        User_DAO dao = new User_DAO();
-////        if (dao.loginUser(username, password)) {
-//        if (9>5) {
-//            return "succes";
-//        } else {
-//            model.addAttribute("mess", "Loi");
-//            return "index";
-//        }
-//    }
+    @RequestMapping(value = "/send")
+    public String Send(ModelMap model, @RequestParam("username") String username, @RequestParam("key") String password) {
+//        User_DAO dao = new User_DAO();
+//        if (dao.loginUser(username, password)) {
+        if (9>5) {
+            return "succes";
+        } else {
+            model.addAttribute("mess", "Loi");
+            return "index";
+        }
+    }
 
 }
