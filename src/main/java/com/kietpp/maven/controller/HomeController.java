@@ -13,6 +13,30 @@ import org.springframework.web.bind.annotation.RequestParam;
  *
  * @author PC
  */
+@Controller
 public class HomeController {
-    
+
+    @RequestMapping(value = "/index")
+    public String index(ModelMap model) {
+        model.addAttribute("name", "sdasda");
+        return "index";
+    }
+
+    @RequestMapping(value = "/table")
+    public String table() {
+        return "table";
+    }
+
+    @RequestMapping("send")
+    public String Send(ModelMap model, @RequestParam("username") String username, @RequestParam("key") String password) {
+//        User_DAO dao = new User_DAO();
+//        if (dao.loginUser(username, password)) {
+        if (9>5) {
+            return "succes";
+        } else {
+            model.addAttribute("mess", "L?I: sai m?t kh?u vui lòng nh?p l?i!");
+            return "index";
+        }
+    }
+
 }
