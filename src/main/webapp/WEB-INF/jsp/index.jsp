@@ -8,17 +8,17 @@
         <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
         <title>Welcome to Spring Web MVC project</title>
         <base href="${pageContext.servletContext.contextPath}/">
-        <link href="resources/css/bootstrap.min.css" rel="stylesheet">
-        <link href="resources/css/bootstrap.css" rel="stylesheet" type="text/css"/>
-        <link href="resources/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
-        <link href="resources/css/bootstrap-theme.css" rel="stylesheet" type="text/css"/>
-        <link href="resources/my-css/login.css" rel="stylesheet" type="text/css"/>
+        <link href="resources-bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="resources-bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="resources-bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+        <link href="resources-bootstrap/css/bootstrap-theme.css" rel="stylesheet" type="text/css"/>
+        <link href="resources-bootstrap/my-css/login.css" rel="stylesheet" type="text/css"/>
 
-        <script src="resources/js/bootstrap.js" type="text/javascript"></script>
-        <script src="resources/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="resources/my-js/login.js" type="text/javascript"></script>
+        <script src="resources-bootstrap/js/bootstrap.js" type="text/javascript"></script>
+        <script src="resources-bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="resources-bootstrap/my-js/login.js" type="text/javascript"></script>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="resources/js/jquery.js" type="text/javascript"></script>
+        <script src="resources-bootstrap/js/jquery.js" type="text/javascript"></script>
     </head>
 
     <body>
