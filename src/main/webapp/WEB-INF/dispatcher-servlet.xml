@@ -35,7 +35,7 @@
     <!--<mvc:resources mapping="/resources/**" location="/resources/" />-->
     
     <!-- C?u hình package ch?a các controller -->
-    <context:component-scan base-package="com.kietpp.maven" />
+    <context:component-scan base-package="com.kietpp.maven.controller" />
 
     <!-- C?u hình view -->
     <bean id="viewResolver"

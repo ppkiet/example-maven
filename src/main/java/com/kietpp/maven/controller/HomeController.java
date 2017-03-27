@@ -1,4 +1,4 @@
-package controller;
+package com.kietpp.maven.controller;
 
 /*
  * To change this license header, choose License Headers in Project Properties.

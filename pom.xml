@@ -6,7 +6,7 @@
     <artifactId>example-maven</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>kietpp-app Maven Webapp</name>
+    <name>example-maven</name>
     <url>http://maven.apache.org</url>
 
     <properties>
