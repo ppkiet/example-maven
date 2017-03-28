@@ -11,10 +11,10 @@ public class Connect {
     //netstat -an -P TCP
     public Connection getSQLServerConnection()
             throws SQLException, ClassNotFoundException {
-        String hostName = "ec2-54-243-185-132.compute-1.amazonaws.com";
-        String database = "dfjlsru78osr4g";
-        String userName = "hrnttbjqqfyiei";
-        String password = "863507b5b58a9ff02f9e2f88c1be3d03ac4abf2fe155a7c2b125dea841789c2b";
+        String hostName = "ec2-54-163-234-4.compute-1.amazonaws.com";
+        String database = "derku4jhcvtue9";
+        String userName = "gxbmypcqratzce";
+        String password = "67fab8ca783471cc6ae1cece8104e17e593268c9852dffb65542a440924399f5";
 
         return getSQLServerConnection(hostName, database, userName, password);
     }

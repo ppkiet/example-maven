@@ -9,16 +9,13 @@
         <title>Welcome to Spring Web MVC project</title>
         <base href="${pageContext.servletContext.contextPath}/">
         <link href="resources-bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="resources-bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
-        <link href="resources-bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
-        <link href="resources-bootstrap/css/bootstrap-theme.css" rel="stylesheet" type="text/css"/>
-        <link href="resources-bootstrap/my-css/login.css" rel="stylesheet" type="text/css"/>
+        
+        <link href="resources-bootstrap/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-        <script src="resources-bootstrap/js/bootstrap.js" type="text/javascript"></script>
-        <script src="resources-bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="resources-bootstrap/js/jquery.js"></script>
+        <script src="resources-bootstrap/js/bootstrap.min.js"></script>
+        <link href="resources-bootstrap/my-css/login.css" rel="stylesheet" type="text/css"/>
         <script src="resources-bootstrap/my-js/login.js" type="text/javascript"></script>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="resources-bootstrap/js/jquery.js" type="text/javascript"></script>
     </head>
 
     <body>
@@ -33,11 +30,11 @@
                         <form role="form" action="send.htm" method="post" id="login-form" autocomplete="off">
                             <div class="form-group">
                                 <label for="username" class="sr-only">Email</label>
-                                <input type="text" name="username" id="user" class="form-control" required="true" placeholder="somebody@example.com" value="${name}">
+                                <input type="text" name="username" id="user" class="form-control" required="true" placeholder="somebody@example.com" value="${username}">
                             </div>
                             <div class="form-group">
                                 <label for="key" class="sr-only">Password</label>
-                                <input type="password" name="key" id="key" class="form-control" required="true" placeholder="Password">
+                                <input type="password" name="key" id="key" class="form-control" required="true" placeholder="Password" value="${password}">
                             </div>
                             <div class="checkbox">
                                 <span class="character-checkbox" onclick="showPassword()"></span>

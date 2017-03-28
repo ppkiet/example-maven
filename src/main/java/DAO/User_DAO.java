@@ -45,7 +45,7 @@ public class User_DAO {
         try {
             Connect c = new Connect();
             conn = c.getSQLServerConnection();
-            String query = "select \"Name\",\"Mark\",\"Major\" from public.\"Demo\"";
+            String query = "select \"Name\",\"Mark\",\"Major\" from public.\"Student\"";
             stmt = conn.prepareStatement(query);
             rs = stmt.executeQuery();
 
