@@ -6,14 +6,14 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
         <base href="${pageContext.servletContext.contextPath}/">
-        <link href="resources-bootstrap/my-css/table-data.css" rel="stylesheet" type="text/css"/>
+        <link href="resources-bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-        <script language="JavaScript" src="https://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
+        <script src="resources-bootstrap/js/bootstrap.min.js"></script>
+        <script src="resources-bootstrap/js/jquery.js" type="text/javascript"></script>
+
         <script language="JavaScript" src="https://cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js" type="text/javascript"></script>
         <script language="JavaScript" src="https://cdn.datatables.net/plug-ins/3cfcc339e89/integration/bootstrap/3/dataTables.bootstrap.js" type="text/javascript"></script>
-        <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/plug-ins/3cfcc339e89/integration/bootstrap/3/dataTables.bootstrap.css">
-        <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
 
         <script>
             $(document).ready(function () {
@@ -22,7 +22,7 @@
             });
         </script>
     </head>
-    
+
     <body>
         <div class="container">
             <div class="row">
